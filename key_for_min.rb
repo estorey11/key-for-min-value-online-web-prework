@@ -17,7 +17,11 @@ def key_for_min_value(name_hash)
     end
     
   }
-  lowkey
+  if i==0 
+    nil
+  else
+    lowkey
+  end
 end
 
 
